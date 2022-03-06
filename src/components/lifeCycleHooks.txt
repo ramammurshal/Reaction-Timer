@@ -1,0 +1,9 @@
+Ada beberapa jenis life cycle hooks:
+- beforeCreate: masa dimana component belum sepenuhnya jadi, tidak bisa akses data
+- created: component sudah jadi tetapi belum di render ke dom, tidak bisa akses data, bisa akses template
+- beforeMount: bisa akses data, event, template
+- mounted: rendering ke DOM, sering digunakan, biasa untuk melakukan fetch request dari API
+- beforeUpdate: terjadi saat data sudah berubah, tetapi sebelum di render ke DOM
+- updated: setelah di update ke DOM
+- beforeUnmount
+- unmounted
